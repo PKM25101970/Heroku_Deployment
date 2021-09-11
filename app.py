@@ -31,16 +31,6 @@ def predict():
     
     return 'Form Submited'
 
-# @app.route('/Welcome')
-# def welcome():
-#     return 'Welecone to you'
+  if __name__ == '__main__':
+    app.run()
 
-# @app.route('/contact')
-# def contact():
-#     return render_template('contact.html')
-
-# @app.route('/Gallary2')
-# def Gallary():
-#     return'Welecone to Gallery'
-
-app.run(debug=True)
